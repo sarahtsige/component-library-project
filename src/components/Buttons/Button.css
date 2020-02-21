@@ -1,0 +1,45 @@
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button-primary {
+    background-color: #33A0FF;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-success {
+    background-color: #0AD00A;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-danger {
+    background-color:#FF4858;
+    color: white;
+    border: #33A0FF;
+}
+
+.button-warning {
+    background-color:#FFC600;
+    color: white;
+    border: #33A0FF;
+}
+
+
+
+.button-light {
+    opacity: 0.25;
+    
+}
+
+.button-primary:hover {
+    background-color: #2E90E5;
+
+}
+
+
