@@ -4,9 +4,15 @@ button {
     background-color: black;
     color: white;
     cursor: pointer;
+    border-color: black;
 }
 
 .button-primary {
+    background-color: #33A0FF;
+    color: white;
+    border: #33A0FF;
+}
+.button-light-primary {
     background-color: #33A0FF;
     color: white;
     border: #33A0FF;
@@ -32,9 +38,13 @@ button {
 
 
 
+
 .button-light {
-    opacity: 0.25;
-    
+    opacity: 0.10;  
+}
+
+.button-outline {
+    background-color: white;
 }
 
 .button-primary:hover {

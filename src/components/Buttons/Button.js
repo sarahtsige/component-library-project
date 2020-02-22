@@ -21,6 +21,10 @@ const Button = (props) => {
     if (props.light) {
         classList += ` button-light` // Note the spacing here since we are adding to the string!
     }
+
+    if (props.outline) {
+        classList += ` button-outline` // Note the spacing here since we are adding to the string!
+    }
     
     // Give the button's class a value of classList
     return <button className={classList}>{props.label}</button>
