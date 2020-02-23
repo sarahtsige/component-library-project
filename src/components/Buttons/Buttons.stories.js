@@ -44,7 +44,7 @@ storiesOf('Button', module)
     />)
     .add('Outline Danger', () => <Button 
         label="Outline Danger" 
-        type='outline-danger'
+        type='outlineDanger'
         outline=''
     />)
     
@@ -54,12 +54,12 @@ storiesOf('Button', module)
     />)
     .add('Light Warning', () => <Button 
         label="Light Warning" 
-        type='warning'
+        type='lightWarning'
         light=''
     />)
     .add('Outline Warning', () => <Button 
         label="Outline Warning" 
-        type='warning'
+        type='outlineWarning'
         outline=''
     />)
     .add('Default', () => <Button 
@@ -68,13 +68,88 @@ storiesOf('Button', module)
     />)
     .add('Light Default', () => <Button 
         label="Light Default" 
-        type='default'
+        type='defaultLight'
         light=''
     />)
     .add('Outline Default', () => <Button 
         label="Outline Default" 
-        type='default'
+        type='defaultOutline'
         outline=''
+/>)
+.add('Large Primary', () => <Button
+label="Large Primary"
+type='primary'
+large
+/>)
+.add('Large Light Primary', () => <Button
+label="Large Light Primary Button"
+type="lightPrimary"
+large
+/>)
+.add('Large Outline Primary', () => <Button
+label="Large Outline Primary Button"
+type="outlinePrimary"
+large
+/>)
+.add('Large Success', () => <Button 
+label="Large Success"
+type='success'
+lage 
+/>)
+.add('Large Light Success', () => <Button
+label="Large Light Success"
+type='lightSuccess'
+large
+/>)
+.add('Large Outline Success', () => <Button
+label="Large Outline Success"
+type='outlineSuccess'
+large
+/>)
+.add('Large Danger', () => <Button 
+label="Large Danger" 
+type='danger'
+large
+/>)
+.add('Large Light Danger', () => <Button 
+label="Large Light Danger" 
+type='lightDanger'
+large
+/>)
+.add('Large Outline Danger', () => <Button 
+label="Large Outline Danger" 
+type='outlineDanger'
+large
+/>)
+
+.add('Large Warning', () => <Button 
+label="Large Warning" 
+type='warning'
+large
+/>)
+.add('Large Light Warning', () => <Button 
+label="Large Light Warning" 
+type='lightWarning'
+large
+/>)
+.add('Large Outline Warning', () => <Button 
+label="Large Outline Warning" 
+type='outlineWarning'
+large
+/>)
+.add('Large Default', () => <Button 
+label="Large Default" 
+large
+/>)
+.add('Large Light Default', () => <Button 
+label="Large Light Default" 
+type='defaultLight'
+large
+/>)
+.add('Large Outline Default', () => <Button 
+label="Large Outline Default" 
+type='defaultOutline'
+large
 />)
 
 

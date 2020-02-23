@@ -5,6 +5,8 @@ button {
     color: white;
     cursor: pointer;
     border-color: black;
+    height: 46px;
+    width: 150px
 }
 
 .button-primary {
@@ -33,7 +35,7 @@ button {
 .button-lightDanger {
     background-color:rgb(255, 72, 88, 0.1);
     color:#FF4858;
-    /* border: #707070 solid 1px; */
+    border: none;
     
 }
 .button-outlineDanger{
@@ -41,8 +43,6 @@ button {
     color: #FF4858;
     border:  #FF4858 solid 2px;
 }
-
-
 
 
 
@@ -65,38 +65,41 @@ button {
 
 
 
-
-
-
-
-
-
-
 .button-warning {
     background-color:#FFC600;
     color: white;
     border: #33A0FF;
 }
-
-
-.button-danger {
-    background-color:#FF4858;
-    color: white;
+.button-lightWarning {
+    background-color:rgb(255, 198, 0, 0.1);
+    color: #FFC600;
     border: #33A0FF;
+    
+}
+.button-outlineWarning{
+    background-color: white;
+    color:   #FFC600;
+    border:   #FFC600 solid 2px;
 }
 
 
-
-
-
-
-
-.button-warning {
-    background-color:#FFC600;
-    color: white;
+.button-defaultLight {
+    background-color:rgb(0, 0, 0, 0.1);
+    color: black;
     border: #33A0FF;
 }
 
+.button-defaultOutline {
+    background-color:white;
+    color: black;
+    border: black solid 2px;
+}
+
+
+.button-large{
+    height: 60px;
+    width: 171px;
+}
 
 
 .button-primary:hover {

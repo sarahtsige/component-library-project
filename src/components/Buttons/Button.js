@@ -8,7 +8,7 @@ const Button = (props) => {
 
     // Create an array of all of the story/component types you want to be
     // included in your component library
-    let types = ['primary', 'danger', 'success', 'warning', 'default', 'lightPrimary', 'outlinePrimary', 'lightSuccess', 'outlineSuccess', 'lightDanger']
+    let types = ['primary', 'danger', 'success', 'warning', 'default', 'lightPrimary', 'outlinePrimary', 'lightSuccess', 'outlineSuccess', 'lightDanger', 'outlineDanger', 'lightWarning', 'outlineWarning', 'defaultLight', 'defaultOutline']
 
     // Add a conditional statement that checks for the type and updates the 
     // classList variable based on their existence.
@@ -23,8 +23,8 @@ const Button = (props) => {
     }
 
 
-    if (props.outline) {
-        classList += ` button-outline` // Note the spacing here since we are adding to the string!
+    if (props.large) {
+        classList += ` button-large` // Note the spacing here since we are adding to the string!
     }
     
     // Give the button's class a value of classList
