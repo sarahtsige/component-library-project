@@ -12,23 +12,65 @@ button {
     color: white;
     border: #33A0FF;
 }
-.button-light-primary {
-    background-color: #33A0FF;
-    color: white;
+.button-lightPrimary {
+    background-color: rgb(51, 160, 255, 0.1);
+    color:rgb(51, 160, 255, 1);
     border: #33A0FF;
+    
 }
+.button-outlinePrimary{
+    background-color: white;
+    color:  #33A0FF;
+    border:  #33A0FF  solid 2px;
+}
+
+
+.button-danger {
+    background-color:#FF4858;
+    color: white;
+    border: #707070;
+}
+.button-lightDanger {
+    background-color:rgb(255, 72, 88, 0.1);
+    color:#FF4858;
+    /* border: #707070 solid 1px; */
+    
+}
+.button-outlineDanger{
+    background-color: white;
+    color: #FF4858;
+    border:  #FF4858 solid 2px;
+}
+
+
+
+
 
 .button-success {
     background-color: #0AD00A;
     color: white;
     border: #33A0FF;
 }
-
-.button-danger {
-    background-color:#FF4858;
-    color: white;
+.button-lightSuccess {
+    background-color:rgb(10, 208, 10, 0.1);
+    color:rgb(10, 208, 10);
     border: #33A0FF;
+    
 }
+.button-outlineSuccess{
+    background-color: white;
+    color:  #0AD00A;
+    border:  #0AD00A  solid 2px;
+}
+
+
+
+
+
+
+
+
+
 
 .button-warning {
     background-color:#FFC600;
@@ -37,15 +79,25 @@ button {
 }
 
 
-
-
-.button-light {
-    opacity: 0.10;  
+.button-danger {
+    background-color:#FF4858;
+    color: white;
+    border: #33A0FF;
 }
 
-.button-outline {
-    background-color: white;
+
+
+
+
+
+
+.button-warning {
+    background-color:#FFC600;
+    color: white;
+    border: #33A0FF;
 }
+
+
 
 .button-primary:hover {
     background-color: #2E90E5;

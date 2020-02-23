@@ -11,12 +11,12 @@ storiesOf('Button', module)
     />)
     .add('Light Primary', () => <Button
         label="Light Primary Button"
-        type="light-primary"
+        type="lightPrimary"
         light
     />)
     .add('Outline Primary', () => <Button
     label="Outline Primary Button"
-    type="outline-primary"
+    type="outlinePrimary"
     outline
 />)
     .add('Success', () => <Button 
@@ -25,12 +25,12 @@ storiesOf('Button', module)
     />)
     .add('Light Success', () => <Button
        label="Light Success"
-       type='success'
+       type='lightSuccess'
        light
        />)
     .add('Outline Success', () => <Button
        label="Outline Success"
-       type='success'
+       type='outlineSuccess'
        outline
        />)
     .add('Danger', () => <Button 
@@ -39,14 +39,15 @@ storiesOf('Button', module)
     />)
     .add('Light Danger', () => <Button 
         label="Danger" 
-        type='danger'
-        light
+        type='lightDanger'
+        light=''
     />)
     .add('Outline Danger', () => <Button 
         label="Outline Danger" 
         type='outline-danger'
-        outline
+        outline=''
     />)
+    
     .add('Warning', () => <Button 
        label="Warning" 
        type='warning'
@@ -54,12 +55,12 @@ storiesOf('Button', module)
     .add('Light Warning', () => <Button 
         label="Light Warning" 
         type='warning'
-        light
+        light=''
     />)
     .add('Outline Warning', () => <Button 
         label="Outline Warning" 
         type='warning'
-        outline
+        outline=''
     />)
     .add('Default', () => <Button 
         label="Default" 
@@ -68,12 +69,12 @@ storiesOf('Button', module)
     .add('Light Default', () => <Button 
         label="Light Default" 
         type='default'
-        light
+        light=''
     />)
     .add('Outline Default', () => <Button 
         label="Outline Default" 
         type='default'
-        outline
+        outline=''
 />)
 
 
