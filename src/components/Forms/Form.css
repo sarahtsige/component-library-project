@@ -1,0 +1,17 @@
+form {
+  height: 58px;
+  width: 300px;
+}
+
+select {
+    width: 300px;
+    height: 60px;
+    border-color: #F1F3F4
+}
+
+.form-mediumEmail {
+height: 66px;
+}
+.form-largeEmail {
+height: 80px;
+}
