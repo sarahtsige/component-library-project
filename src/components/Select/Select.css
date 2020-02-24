@@ -1,0 +1,41 @@
+.select-white{
+    background-color: white;
+    width: 300px;
+    height: 60px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-gray{
+    background-color: #FAFAFB;
+    width: 300px;
+    height: 60px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-mediumWhite {
+    background-color: white;
+    height: 46px;
+    width: 300px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-mediumGray {
+    background-color: #FAFAFB;
+    height: 46px;
+    width: 300px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-smallWhite {
+    background-color: white;
+    height: 38px;
+    width: 300px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-smallGray {
+    background-color: #FAFAFB;
+    height: 38px;
+    width: 300px;
+    border:  #FAFAFB solid 1px;
+}

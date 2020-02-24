@@ -95,10 +95,42 @@ button {
     border: black solid 2px;
 }
 
-
 .button-large{
     height: 60px;
     width: 171px;
+}
+
+
+.button-heart{
+    background-image: url("hearts.png");
+    background-position: 5% 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.button-cart{
+    background-image: url("cart_2.png");
+    background-position: 5% 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.button-heart2{
+    background-image: url("hearts.png");
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 46px;
+}
+
+.button-cart2{
+    background-image: url("cart_2.png");
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 46px;
 }
 
 

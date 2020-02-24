@@ -153,13 +153,25 @@ storiesOf('Button', module)
    .add('Add to Cart', () => <Button
    label="Add to Cart"
    type="lightPrimary"
-   icon=''
+   image='cart'
 />)
     .add('Add to Favorites', () => <Button
     label="Add to Favorties"
     type="lightPrimary"
-    icon=''
+    image='heart'
     />)
 
+
+    .add('Cart', () => <Button
+    label=""
+    type="lightPrimary"
+    icon='cart'
+
+ />)
+     .add('Favorites', () => <Button
+     label=""
+     type="lightPrimary"
+     icon='heart'
+     />)
 
 
