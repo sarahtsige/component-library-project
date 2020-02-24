@@ -1,0 +1,281 @@
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-color: black;
+    height: 46px;
+    width: 150px
+}
+
+.button-primary {
+    background-color: #33A0FF;
+    color: white;
+    border: #33A0FF;
+}
+.button-lightPrimary {
+    background-color: rgb(51, 160, 255, 0.1);
+    color:rgb(51, 160, 255, 1);
+    border: #33A0FF;
+    
+}
+.button-outlinePrimary{
+    background-color: white;
+    color:  #33A0FF;
+    border:  #33A0FF  solid 2px;
+}
+
+
+.button-danger {
+    background-color:#FF4858;
+    color: white;
+    border: #707070;
+}
+.button-lightDanger {
+    background-color:rgb(255, 72, 88, 0.1);
+    color:#FF4858;
+    border: none;
+    
+}
+.button-outlineDanger{
+    background-color: white;
+    color: #FF4858;
+    border:  #FF4858 solid 2px;
+}
+
+
+
+.button-success {
+    background-color: #0AD00A;
+    color: white;
+    border: #33A0FF;
+}
+.button-lightSuccess {
+    background-color:rgb(10, 208, 10, 0.1);
+    color:rgb(10, 208, 10);
+    border: #33A0FF;
+    
+}
+.button-outlineSuccess{
+    background-color: white;
+    color:  #0AD00A;
+    border:  #0AD00A  solid 2px;
+}
+
+
+
+.button-warning {
+    background-color:#FFC600;
+    color: white;
+    border: #33A0FF;
+}
+.button-lightWarning {
+    background-color:rgb(255, 198, 0, 0.1);
+    color: #FFC600;
+    border: #33A0FF;
+    
+}
+.button-outlineWarning{
+    background-color: white;
+    color:   #FFC600;
+    border:   #FFC600 solid 2px;
+}
+
+
+.button-defaultLight {
+    background-color:rgb(0, 0, 0, 0.1);
+    color: black;
+    border: #33A0FF;
+}
+
+.button-defaultOutline {
+    background-color:white;
+    color: black;
+    border: black solid 2px;
+}
+
+.button-large{
+    height: 60px;
+    width: 171px;
+}
+
+
+.button-heart{
+    background-image: url(static/media/hearts.7a05ce7d.png);
+    background-position: 5% 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.button-cart{
+    background-image: url(static/media/cart_2.7695d2b4.png);
+    background-position: 5% 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.button-heart2{
+    background-image: url(static/media/hearts.7a05ce7d.png);
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 46px;
+}
+
+.button-cart2{
+    background-image: url(static/media/cart_2.7695d2b4.png);
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 46px;
+}
+
+
+.button-primary:hover {
+    background-color: #2E90E5;
+
+}
+
+
+
+.counterContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    width: 116px;
+}
+
+.minus{
+    background-color: #F6F7F8;
+    border: none;
+    color:#33A0FF;
+    height: 46px;
+    font-size: 16px;
+    
+}
+.plus{
+    background-color: #F6F7F8;
+    color:#33A0FF;
+    border: none;
+    height: 46px;
+    font-size: 16px;
+    
+}
+
+.number{
+ color: black;
+ background-color: #F6F7F8;
+ height: 46px;
+ font-size: 16px;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: -15px;
+
+}
+.email-email {
+ width: 300px;
+ height: 38px;
+}
+
+.email-mediumEmail {
+    height: 46px;
+    width: 300px;
+   }
+
+.email-largeEmail {
+    height: 60px;
+    width: 300px;
+}
+
+
+button {
+
+}
+
+.input-small{
+ height:41px;
+ width: 182px;
+}
+
+.input-large{
+    height:55px;
+    width: 182px;
+}
+
+.button-small{
+    height:46px;
+    width: 118px;
+    border: 4px solid  #33A0FF;
+    padding: 3px;
+    background-color: #33A0FF;
+    border-radius: 0px 5px 5px 0px;
+   }
+
+.button-large{
+    height:60px;
+    width: 118px;
+    border: 4px solid  #33A0FF;
+    background-color: #33A0FF;
+    border-radius: 0px 5px 5px 0px;
+   }
+
+select{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+	background-color: #fff;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    font-size: 14px;
+}
+
+
+.select-white{
+    background-color: white;
+    width: 300px;
+    height: 60px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-gray{
+    background-color: #FAFAFB;
+    width: 300px;
+    height: 60px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-mediumWhite {
+    background-color: white;
+    height: 46px;
+    width: 300px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-mediumGray {
+    background-color: #FAFAFB;
+    height: 46px;
+    width: 300px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-smallWhite {
+    background-color: white;
+    height: 38px;
+    width: 300px;
+    border:  #FAFAFB solid 1px;
+}
+
+.select-smallGray {
+    background-color: #FAFAFB;
+    height: 38px;
+    width: 300px;
+    border:  #FAFAFB solid 1px;
+}
+
+
+/*# sourceMappingURL=main.105771c7.chunk.css.map*/
