@@ -11,5 +11,5 @@ type='small'
 />)
 .add('Large InputButton', () => <InputwButtons
 label='Large Input with Button'
-type='large'
+type='large2'
 />)

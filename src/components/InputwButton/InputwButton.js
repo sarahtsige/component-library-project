@@ -19,7 +19,7 @@ class InputwButtons extends Component {
     render() {
         let classListI = "";
         let classListB = "";
-        let types = ['large', 'small'];
+        let types = ['large2', 'small'];
 
     //conditionals
 
