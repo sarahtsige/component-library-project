@@ -12,6 +12,11 @@ class Checkbox extends Component {
   //method
 
 
+togglecheck() {
+  this.setState({ checked: !this.state.checked})
+  console.log(this.state.checked)
+}
+
   render() {
       let classList = "";
       let types = ['black', 'blue'];
@@ -26,7 +31,7 @@ class Checkbox extends Component {
 
   return (
       <form>
-               <input type="checkbox"  className={classList}></input>  <label>{this.props.label}</label>
+               <input type="checkbox" onClick={this.check} className={classList}></input>  <label>{this.props.label}</label>
        </form>
     )}
 //

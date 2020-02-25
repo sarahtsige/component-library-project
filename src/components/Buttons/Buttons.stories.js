@@ -6,147 +6,147 @@ import Button from './Button';
 
 storiesOf('Button', module)
     .add('Primary', () => <Button
-        label="Primary"
+        label="Do Something"
         type='primary'
     />)
     .add('Light Primary', () => <Button
-        label="Light Primary Button"
+        label="Do Something"
         type="lightPrimary"
         light
     />)
     .add('Outline Primary', () => <Button
-    label="Outline Primary Button"
+    label="Do Something"
     type="outlinePrimary"
     outline
 />)
     .add('Success', () => <Button 
-       label="Success"
+       label="Do Something"
        type='success' 
     />)
     .add('Light Success', () => <Button
-       label="Light Success"
+       label="Do Something"
        type='lightSuccess'
        light
        />)
     .add('Outline Success', () => <Button
-       label="Outline Success"
+       label="Do Something"
        type='outlineSuccess'
        outline
        />)
     .add('Danger', () => <Button 
-       label="Danger" 
+       label="Do Something" 
        type='danger'
     />)
     .add('Light Danger', () => <Button 
-        label="Danger" 
+        label="Do Something"
         type='lightDanger'
         light=''
     />)
     .add('Outline Danger', () => <Button 
-        label="Outline Danger" 
+        label="Do Something"
         type='outlineDanger'
         outline=''
     />) 
     .add('Warning', () => <Button 
-       label="Warning" 
+       label="Do Something"
        type='warning'
     />)
     .add('Light Warning', () => <Button 
-        label="Light Warning" 
+        label="Do Something"
         type='lightWarning'
         light=''
     />)
     .add('Outline Warning', () => <Button 
-        label="Outline Warning" 
+        label="Do Something" 
         type='outlineWarning'
         outline=''
     />)
     .add('Default', () => <Button 
-        label="Default" 
+        label="Do Something" 
         type='default'
     />)
     .add('Light Default', () => <Button 
-        label="Light Default" 
+        label="Do Something"
         type='defaultLight'
         light=''
     />)
     .add('Outline Default', () => <Button 
-        label="Outline Default" 
+        label="Do Something" 
         type='defaultOutline'
         outline=''
 />)
     .add('Large Primary', () => <Button
-    label="Large Primary"
+    label="Do Something"
     type='primary'
     large
     />)
     .add('Large Light Primary', () => <Button
-    label="Large Light Primary Button"
+    label="Do Something"
     type="lightPrimary"
     large
     />)
     .add('Large Outline Primary', () => <Button
-    label="Large Outline Primary Button"
+    label="Do Something"
     type="outlinePrimary"
     large
     />)
     .add('Large Success', () => <Button 
-    label="Large Success"
+    label="Do Something"
     type='success'
     lage 
     />)
     .add('Large Light Success', () => <Button
-    label="Large Light Success"
+    label="Do Something"
     type='lightSuccess'
     large
     />)
     .add('Large Outline Success', () => <Button
-    label="Large Outline Success"
+    label="Do Something"
     type='outlineSuccess'
     large
     />)
     .add('Large Danger', () => <Button 
-    label="Large Danger" 
+    label="Do Something"
     type='danger'
     large
     />)
     .add('Large Light Danger', () => <Button 
-    label="Large Light Danger" 
+    label="Do Something"
     type='lightDanger'
     large
     />)
     .add('Large Outline Danger', () => <Button 
-    label="Large Outline Danger" 
+    label="Do Something"
     type='outlineDanger'
     large
     />)
 
     .add('Large Warning', () => <Button 
-    label="Large Warning" 
+    label="Do Something"
     type='warning'
     large
     />)
     .add('Large Light Warning', () => <Button 
-    label="Large Light Warning" 
+    label="Do Something"
     type='lightWarning'
     large
     />)
     .add('Large Outline Warning', () => <Button 
-    label="Large Outline Warning" 
+    label="Do Something"
     type='outlineWarning'
     large
     />)
     .add('Large Default', () => <Button 
-    label="Large Default" 
+    label="Do Something"
     large
     />)
     .add('Large Light Default', () => <Button 
-    label="Large Light Default" 
+    label="Do Something"
     type='defaultLight'
     large
     />)
     .add('Large Outline Default', () => <Button 
-    label="Large Outline Default" 
+    label="Do Something" 
     type='defaultOutline'
     large
     />)
