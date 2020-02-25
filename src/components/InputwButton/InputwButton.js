@@ -25,11 +25,10 @@ class InputwButtons extends Component {
 
     if (types.includes(this.props.type)) {
         classListI += ` input-${this.props.type}`;
-        }
-
-    if (types.includes(this.props.type)) {
         classListB += ` button-${this.props.type}`;
         }
+
+
 
     return (
         <form>

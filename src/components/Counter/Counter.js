@@ -1,35 +1,44 @@
-import React, {Component } from "react";
+import React, { Component } from "react";
 import "./Counter.css";
 
-
 class Counter extends Component {
-  constructor (props){
-  super(props);
-  this.state = { value: 0 };
-  //this.handleClick = this.handleClick.bind(this);
+  constructor(props) {
+    super(props);
+    this.state = { value: 0 };
   }
 
   //method
+  decreaseCounter = () => {
+    let value = this.state.value - 1;
+    this.setState({ value: value });
+  };
 
+  increaseCounter = () => {
+    let value = this.state.value + 1;
+    this.setState({ value: value });
+  };
 
   render() {
-      let classList = "";
-      let types = ['counter'];
+    let types = ["counter"];
 
-  //conditionals
+    //conditionals
 
-  if (types.includes(this.props.type)) {
-      classList += ` counter-${this.props.type}`;
-      }
+    if (types.includes(this.props.type)) {
+    }
 
-
-
-  return (
-      <div className='counterContainer'>
-               <button className='minus'>-</button> <div className='number'>{this.state.value}</div> <button  className='plus'>+</button>
-       </div>
-    )}
-//
+    return (
+      <div className="counterContainer">
+        <button className="minus" onClick={this.decreaseCounter}>
+          -
+        </button>{" "}
+        <div className="number">{this.state.value}</div>{" "}
+        <button onClick={this.increaseCounter} className="plus">
+          +
+        </button>
+      </div>
+    );
   }
+  //
+}
 
 export default Counter;
