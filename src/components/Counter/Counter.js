@@ -26,6 +26,8 @@ class Counter extends Component {
     if (types.includes(this.props.type)) {
     }
 
+    const {prop1, prop2, prop3} = this.props;
+
     return (
       <div className="counterContainer">
         <button className="minus" onClick={this.decreaseCounter}>

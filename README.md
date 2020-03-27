@@ -2,7 +2,11 @@
 
 ## Technologies Used
 
-CSS, JavaScript, React, Storybook and Adobe XD
+- React, 
+- Storybook 
+- JavaScript
+- CSS 
+- Mockup provided in  Adobe XD
 
 
 ## Requirements
@@ -11,7 +15,7 @@ CSS, JavaScript, React, Storybook and Adobe XD
 - Include the required components in the Adobe XD Mock-up
 - Be deployed to GitHub Pages, Netlify, or Surge
 - Be published to the NPM Package Registry
-- Includes a README written in well formatted Markdown 
+- Includes a README 
 
 ## Objective
 
@@ -27,6 +31,6 @@ There are some small tweaks to be made to a couple of the components.  Code will
 
 ### Author
 
-Sarah Saleh
+- Sarah Saleh
 
 

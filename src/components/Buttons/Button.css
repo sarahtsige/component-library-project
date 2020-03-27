@@ -1,7 +1,7 @@
 button {
     border-radius: 2px;
     padding: 5px 25px;
-    background-color: black;
+    background-color: #22262A;
     color: white;
     cursor: pointer;
     border-color: black;
@@ -28,9 +28,14 @@ button {
 
 
 .button-danger {
-    background-color:#FF4858;
+    background-color:rgb(255, 72, 88, 0.8);
     color: white;
     border: #707070;
+}
+
+.button-danger:hover {
+    background-color: #F53848;
+
 }
 .button-lightDanger {
     background-color:rgb(255, 72, 88, 0.1);
@@ -57,6 +62,7 @@ button {
     border: #33A0FF;
     
 }
+
 .button-outlineSuccess{
     background-color: white;
     color:  #0AD00A;
@@ -136,7 +142,26 @@ button {
 
 .button-primary:hover {
     background-color: #2E90E5;
+}
+
+.button-danger:hover {
+    background-color: #F53848;
 
 }
+
+.button-success:hover {
+    background-color:#07C107;
+}
+
+.button-warning:hover {
+    background-color:#EBB600;
+}
+
+
+.button-default:hover {
+    background-color:#13161A;
+}
+
+
 
 
